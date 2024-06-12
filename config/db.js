@@ -5,12 +5,12 @@ const conn = mysql.createConnection({
   user: "root",
   password: "",
   database: "college_platform",
-  port: 3306
+  port: 8000,
 
-//   host: "bc9hbqejea54mm4jisb2-mysql.services.clever-cloud.com",
-//   user: "ueowj6fgqzxsok7q",
-//   password: "ELreF73VjN4m4pDrVnBQ",
-//   database: "bc9hbqejea54mm4jisb2",
+  //   host: "bc9hbqejea54mm4jisb2-mysql.services.clever-cloud.com",
+  //   user: "ueowj6fgqzxsok7q",
+  //   password: "ELreF73VjN4m4pDrVnBQ",
+  //   database: "bc9hbqejea54mm4jisb2",
 });
 conn.connect(function (err){
     if(err) throw err;
