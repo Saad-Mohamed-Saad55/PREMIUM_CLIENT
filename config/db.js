@@ -4,7 +4,8 @@ const conn = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "",
-  database: "college_platform"
+  database: "college_platform",
+  port: 3306
 
 //   host: "bc9hbqejea54mm4jisb2-mysql.services.clever-cloud.com",
 //   user: "ueowj6fgqzxsok7q",
